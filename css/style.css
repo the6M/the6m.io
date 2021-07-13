@@ -1,0 +1,569 @@
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+
+
+html, body {
+     width: 100%;
+     overflow-x: hidden;
+     font-family: 'Inconsolata', monospace;
+  }
+
+
+h1{
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+}
+
+h1
+{
+  text-align: center;
+}
+
+h3{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center ;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+h5{
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  
+  color: #fff;
+}
+
+h6{
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  width: 400px;
+}
+
+h7{
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+
+.heading {
+  font-size: 20px;
+}
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 28px;
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+hr{
+  height: 2px;
+            background: black;
+            margin-bottom: 50px;
+}
+
+
+ 
+@media all and (max-width 30em) 
+{
+a.button1
+{
+display: block;
+margin: 00.4em auto;
+}  
+}
+  
+.custom-navbar .navbar-brand {
+  color: #000000;
+  font-weight: normal;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.about
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section-title strong {
+	color: #00C6D7;
+  	font-size: 56px;
+}
+
+.section-title h1 {
+	font-size: 24px;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+#work {
+   padding-top: 50px;
+   padding-bottom: 20px;
+  
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.image1
+{
+width: 600px;
+}
+
+
+.custom-navbar {
+    background: #918f8f;
+    margin-bottom: 0;
+    
+
+}
+.custom-navbar .navbar-brand  {
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+        color: #000000;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #ffffff;
+        border-color: transparent;
+    }
+
+
+
+/* Home */
+#home {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-align: center;
+  background-size: cover;
+  padding-top: 25px;
+  
+}
+
+#spacer
+{
+padding-top: 100vh;
+}
+
+
+#home h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #000000;
+  padding-right: 10px;
+}
+#home h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+#home hr {
+  width: 240px;
+  color: #000000;
+}
+#home .btn {
+  background: transparent;
+  border: 4px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
+}
+#home .btn:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+#home .btn-danger {
+  background: #00c6d7;
+  border-color: transparent;
+}
+#home .btn-danger:hover {
+	border: 4px solid #ffffff;
+  	border-radius: 0;
+	background: transparent;
+  	color: #ffffff;
+}
+
+/* work */
+
+.project-item {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 25px;
+
+  vertical-align: middle;
+  text-align: center;
+}
+
+.project-overlay {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.project-info {
+  padding: 5em 0;
+}
+
+.project-item img {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.project-item:hover img {
+  transform: scale(1.1);
+}
+
+.project-overlay h1 {
+  color: #ffffff;
+  margin: 0;
+}
+.project-overlay h3 {
+  color: #d9d9d9;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+}
+
+.project-item:hover .project-overlay {
+  opacity: 1;
+}
+
+#work {
+    text-align: center;
+}
+#work .col-md-4 {
+  padding: 28px;
+  position: relative;
+  
+}
+#work .col-md-4:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#work h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Inconsolata', monospace;
+}
+
+#work2 {
+  text-align: center;
+}
+#work2 .col-md-4 {
+padding: 28px;
+position: relative;
+transition: all 0.4s ease-in-out;
+}
+#work2 .col-md-4:hover {
+background-color: #ffffff;
+box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#work2 h3 {
+font-size: 18px;
+}
+
+.spacer
+{
+  padding-bottom: 100px;
+}
+
+#contact {
+  background:rgb(161, 160, 160);
+  background-size: cover;
+  color: #ffffff;
+  
+}
+#contact h2 {
+  padding-bottom: 20px;
+}
+#contact h3 {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#contact .medium-icon {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#contact .contact-info div {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#contact form {
+  padding-top: 60px;
+}
+#contact .form-control {
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#contact input {
+  height: 40px;
+}
+#contact input[type="submit"] {
+  background: #000000;
+  border: 3px solid #000000;
+  letter-spacing: 1px;
+  margin-top: 18px;
+  height: 50px;
+  color: #ffffff;
+}
+#contact input[type="submit"]:hover {
+  color: #e99919;
+  font-weight: bolder;
+}
+
+
+/* footer*/
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  padding-top: 20px;
+}
+
+a
+{
+  color: #000000;
+}
+
+
+/* Responsive*/
+
+@media(min-width:1389px)
+{
+  .image1
+  {
+    width: 700px;
+  }
+}
+
+@media(min-width:768px){
+  .custom-navbar {
+          
+          padding: 10px;
+          border-bottom: 0;
+          background: 0 0;
+          background: rgb(161, 160, 160);
+          
+       }
+  .custom-navbar.top-nav-collapse {
+          padding: 8px;
+        
+          
+      }
+}
+
+h4{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center ;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+video {
+  height: 105%;
+  width: 105%;
+ 
+  padding-right: 20px;
+ 
+}
+
+
+
+@media (max-width: 440px) {
+  #home {
+    padding-bottom: 51px;
+    
+  }
+
+.spacer
+{
+padding-top: 0%;
+}
+
+  #home h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-right: 40px;
+    font-weight: bold;
+  }
+  #home h3 {
+    font-size: 15px;
+    width: fit-content;
+    padding-right: 55px;
+  }
+
+  h4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center ;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  video{
+    padding-bottom: 10px;
+  }
+
+.image1
+{
+  width: 400px;
+  padding-right: 35px;
+}
+
+.navimg
+{
+width: 60px;
+}
+
+}
+
+@media (max-width: 370px) {
+  #home {
+    padding-bottom: 50px;
+    
+  }
+
+.spacer
+{
+padding-top: 0%;
+}
+
+  #home h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-right: 50px;
+  }
+  #home h3 {
+    font-size: 15px;
+    width: fit-content;
+    padding-right: 55px;
+  }
+
+  h4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center ;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  video{
+    padding-bottom: 10px;
+  }
+
+.image1
+{
+  width: 400px;
+  padding-right: 35px;
+}
+
+.navimg
+{
+width: 60px;
+}
